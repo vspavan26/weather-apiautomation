@@ -1,0 +1,7 @@
+{
+    "deviceID" : "ce071717c850332d04"
+    "os" : "Android"
+    "deviceName" : "Samsung"
+    "packageName" : "com.twitter.android.lite"
+    "activityName" : "com.twitter.android.lite.TwitterLiteActivity"
+}

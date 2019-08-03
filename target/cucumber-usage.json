@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^user invokes state code service as GET$",
+    "steps": [
+      {
+        "name": "user invokes state code service as GET",
+        "aggregatedDurations": {
+          "average": 4.2296397,
+          "median": 4.2296397
+        },
+        "durations": [
+          {
+            "duration": 4.2296397,
+            "location": "WeatherAPI.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user invokes weather service as GET$",
+    "steps": [
+      {
+        "name": "user invokes weather service as GET",
+        "aggregatedDurations": {
+          "average": 1.5671879,
+          "median": 1.5671879
+        },
+        "durations": [
+          {
+            "duration": 1.5671879,
+            "location": "WeatherAPI.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user provides key (.*) lat (.*) lon (.*) as parameters$",
+    "steps": [
+      {
+        "name": "user provides key a0f75544b9da4790a507dfb05e174f7e lat 40.730610 lon -73.935242 as parameters",
+        "aggregatedDurations": {
+          "average": 0.704321899,
+          "median": 0.704321899
+        },
+        "durations": [
+          {
+            "duration": 0.704321899,
+            "location": "WeatherAPI.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify status code is 200$",
+    "steps": [
+      {
+        "name": "verify status code is 200",
+        "aggregatedDurations": {
+          "average": 0.131587,
+          "median": 0.131587
+        },
+        "durations": [
+          {
+            "duration": 0.131587,
+            "location": "WeatherAPI.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^print the state code from response$",
+    "steps": [
+      {
+        "name": "print the state code from response",
+        "aggregatedDurations": {
+          "average": 0.012480901,
+          "median": 0.012480901
+        },
+        "durations": [
+          {
+            "duration": 0.012480901,
+            "location": "WeatherAPI.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user provides key (.*) postcode (.*) as parameters$",
+    "steps": [
+      {
+        "name": "user provides key a0f75544b9da4790a507dfb05e174f7e postcode 2142 as parameters",
+        "aggregatedDurations": {
+          "average": 0.002388801,
+          "median": 0.002388801
+        },
+        "durations": [
+          {
+            "duration": 0.002388801,
+            "location": "WeatherAPI.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]
